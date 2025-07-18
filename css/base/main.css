@@ -1,0 +1,22 @@
+:root{
+    --first-color:black;
+    --second-color:#2C67F6;
+}
+
+body{
+    background-color: #F8F8F8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
