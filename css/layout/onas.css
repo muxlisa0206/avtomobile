@@ -6,7 +6,11 @@
     background-color: #FFFFFF;
     border-radius: 10px;
 }
-
+header{
+    position: fixed;
+    width: 100%;
+    top: 20px;
+}
 .logo1{
     width: 60px;
     height: 60px;
@@ -160,4 +164,49 @@
     padding: 30px;
     background-color: #FFFFFF;
     border-radius: 24px;
+}
+
+.onas{
+    display: flex;
+    gap: 30px;
+}
+.onas-content__title{
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 900;
+}
+.onas-content__desc{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 30px;
+    width: 484px;
+}
+.onas-img{
+    max-width: 628px;
+    height: 465px;
+    width: 100%;
+    border-radius: 11px;
+}
+.icon2-img{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: var(--second-color);
+}
+.icon-desc{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.onas-content__desc2{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.onas-btn2{
+    margin-left: 30px;
+    color: white;
+    background-color: var(--second-color);
 }
